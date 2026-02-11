@@ -1,0 +1,23 @@
+
+1. How Java is different from other programming languages?
+
+Java is different from other programming languages because it is platform-independent, object-oriented, secure, and automatically manages memory. Java programs are compiled into bytecode that runs on the Java Virtual Machine (JVM), which allows them to run on any system without modification (Write Once, Run Anywhere). Unlike languages such as C and C++, Java does not use pointers and provides automatic garbage collection, making it safer and easier to manage memory. It also includes built-in support for multithreading, strong exception handling, and a rich standard library for networking, database connectivity, and GUI development. These features make Java robust, secure, and widely used for developing web, mobile, and enterprise applications.
+
+
+
+2. Explain about public static void main(String[] args)
+
+public static void main(String[] args) is the starting point of every Java program. When you run a Java application, the Java Virtual Machine (JVM) looks for this method and begins execution from here. The word public means the method can be accessed from anywhere, so the JVM can call it. Static means the method belongs to the class itself and can run without creating an object of the class. Void means the method does not return any value. Main is the fixed name that the JVM recognizes as the entry method. String[] args is used to receive command-line arguments as input in the form of strings when the program is executed. Together, this line defines the entry point of a Java application.
+
+
+3. Write a sample program to print following:
+   
+                                        * * *
+                                      * * * * *
+
+public class StarPattern {
+    public static void main(String[] args) {
+                System.out.println("    * * *");
+                System.out.println("  * * * * *");
+    }
+}
