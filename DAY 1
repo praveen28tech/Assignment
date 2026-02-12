@@ -1,7 +1,7 @@
 
 1. How Java is different from other programming languages?
 
-Java is different from other programming languages because it is platform-independent, object-oriented, secure, and automatically manages memory. Java programs are compiled into bytecode that runs on the Java Virtual Machine (JVM), which allows them to run on any system without modification (Write Once, Run Anywhere). Unlike languages such as C and C++, Java does not use pointers and provides automatic garbage collection, making it safer and easier to manage memory. It also includes built-in support for multithreading, strong exception handling, and a rich standard library for networking, database connectivity, and GUI development. These features make Java robust, secure, and widely used for developing web, mobile, and enterprise applications.
+Java is different from other programming languages because it is platform-independent, object-oriented, secure, and automatically manages memory. Java programs are compiled into bytecode that runs on the Java Virtual Machine (JVM), which allows them to run on any system without modification (Write Once, Run Anywhere). Unlike languages such as C and C++, Java does not use pointers and provides automatic garbage collection, making it safer and easier to manage memory. It also includes built-in support for multithreading, strong exception handling, and a rich standard library for networking, database connectivity, and GUI development. These features make Java robust, secure, and widely used for developing web, mobile, and enterprise applications..
 
 
 
