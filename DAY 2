@@ -1,0 +1,58 @@
+// 1. Get 3 floating numbers from user like for eg a,b,c. Multiply a & b and then divide it by c. Print the result.
+
+package classes;
+import java.util.Scanner;
+public class Float {
+
+	public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter value of a: ");
+        float a = sc.nextFloat();
+  
+        System.out.print("Enter value of b: ");
+        float b = sc.nextFloat();
+
+        System.out.print("Enter value of c: ");
+        float c = sc.nextFloat();
+
+        float result = (a * b) / c;
+
+        System.out.println("Result = " + result);
+
+        sc.close();
+        
+	}
+	
+}
+
+// 2. Compare 2 numbers using >= and <= operators. Print the result.
+
+package classes;
+
+import java.util.Scanner;
+
+public class Compare {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("enter the first number ");
+		int num_1 = scan.nextInt();
+		
+		System.out.print("enter the second number ");
+		int num_2 = scan.nextInt();
+		
+		System.out.println("num_1>=num_2: " + (num_1>=num_2));
+		System.out.println("num_1<=num_2: " + (num_1<=num_2));
+		scan.close();
+
+	}
+
+}
+
+
+
+
+	
+
