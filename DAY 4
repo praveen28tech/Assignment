@@ -1,0 +1,62 @@
+//1. Write a program to print odd numbers between 21 to 40 using while loop and jumping statement
+
+package classes;
+public class Oddnumber {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 int i = 21;
+
+	        while (i <= 40) {
+	            if (i % 2 == 0) {
+	                i++;
+	                continue;  
+	            }
+	            System.out.print(i + " ");
+	            i++;
+	            
+	        }
+	        
+	}   
+	
+}
+
+
+// 2. Write a method which should join the given string and number:
+      For eg:   input : Hi, 5    Output: Hi5
+
+package classes;
+
+import java.util.Scanner;
+
+public class Stringjoin {
+
+	
+	 public static String join(String name, int number) {
+		  
+		 String valu = name + number;   
+		 return valu;
+		 
+		 
+	 }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.print("enter your name :"); 
+		String name_1 = scan.next();
+		System.out.print("enter number :");   
+		int num_1 = scan.nextInt();
+		
+		System.out.println(join(name_1, num_1));  
+		
+		scan.close();
+	}
+
+}
+
+
+
+
+
